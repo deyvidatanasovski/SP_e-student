@@ -4,6 +4,7 @@
 	<title>Home page for e-student</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 	<link rel="stylesheet" href="css/mystyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 <body>
 	<header>
@@ -12,63 +13,74 @@
 	<div class="header-links"><a href="login.html">Sign out</a></div>
 	</div>
 	</header>
-	
-	<div class="main-centered-content" id="main">
-		<section>
-			<div>
-			<nav>
+	<div class="main-centered-content">
+		<nav>
 			<ul>
-				<li><a class="active" href="./home.html">Izpitni roki</a></li>
+				<li><a href="./home.html">Izpitni roki</a></li>
 				<li><a href="./myInfo.html">Moji Podatki</a></li>
-				<li><a href="./eIndex.html">E-indeks</a></li>
+				<li><a class="active" href="./eIndex.html">E-indeks</a></li>
 				<li><a href="./orders.html">Naročilo potrdil</a></li>
 				<li><a href="./application.html">Prošnje</a></li>
 			</ul>
 		</nav>
+		<section>
+		<div>
+			
 			<h1>Prikaz izpitnih rokov</h1>
 			
 				<table>
 					<thead>
 						<tr>
-							<th>Letnik</th>
+							<th>Šifra</th>
 							<th>Predmet</th>
 							<th>Profesor</th>
 							<th>Datum</th>
-							<th>Status</th>
+							<th>KT</th>
+							<th>Ocena</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>1. letnik</td>
+							<td>1</td>
 							<td>Programiranje</td>
 							<td>John Snow</td>
-							<td> <time datetime="2017-21-01">21.01.2017</time></td>
-							<td><button>Prijava</button></td>
+							<td>21.01.2017</td>
+							<td>6</td>
+							<td>8</td>
 						</tr>
 						<tr>
-							<td>1. letnik</td>
+							<td>2</td>
 							<td>Matematika</td>
 							<td>Davy Jones</td>
 							<td>24.01.2017</td>
-							<td><button>Prijava</button></td>
+							<td>6</td>
+							<td>9</td>
 						</tr>
 						<tr>
-							<td>1. letnik</td>
+							<td>3</td>
 							<td>Fizika</td>
 							<td>Elizabeth Warren</td>
 							<td>28.01.2017</td>
-							<td><button>Prijava</button></td>
+							<td>6</td>
+							<td>10</td>
 						</tr>
 						<tr>
-							<td>1. letnik</td>
+							<td>4</td>
 							<td>Digitalna Vezja</td>
 							<td>Ivan Maher</td>
 							<td>31.01.2017</td>
-							<td><button>Prijava</button></td>
+							<td>6</td>
+							<td>8</td>
 						</tr>
 					</tbody>
 				</table>
+				<p>
+					<input type="submit" value="Natisni" />
+					<a href="./home.html">Nazaj</a>
+				
+				</p>
 			</div>
+
 		</section>
 	</div>
 	<footer>
