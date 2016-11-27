@@ -8,7 +8,7 @@
 <body>
 	<header>
 	<div class="main-centered-content">
-	<a href="./home.html"><img src="logo.jpg" alt="logo"/></a>
+	<a href="./home.html"><img src="logom.jpg" alt="logo"/></a>
 	<div class="header-links"><a href="login.html">Sign out</a></div>
 	</div>
 	</header>
@@ -18,7 +18,7 @@
 				<li><a href="./home.html">Izpitni roki</a></li>
 				<li><a href="./myInfo.html">Moji Podatki</a></li>
 				<li><a href="./eIndex.html">E-indeks</a></li>
-				<li><a class="active" href="./orders.html">Naročilo potrdil</a></li>
+				<li><a class="active" href="./orders.html">Potrdila</a></li>
 				<li><a href="./application.html">Prošnje</a></li>
 			</ul>
 		</nav>
@@ -26,40 +26,46 @@
 			<form action="home.html" autocomplete="on" method="post">
 							<h1>Naročilo potrdil o vpisu</h1>
 							
-							<p>
-								<label>Število izvodov</label>
-								<select>
-								  <option >1</option>
-								  <option >2</option>
-								  <option >3</option>
-								  <option >4</option>
-								   <option>5</option>
-								  <option >6</option>
-								  <option >7</option>
-								  <option >8</option>
-								   <option>9</option>
-								  <option >10</option>
-								</select>	
-							</p>
-							<p>
-								<label>Način prevzema</label>
-								<select>
-								  <option >Po pošti</option>
-								  <option >Osebno</option>
-								  </select>
-							</p>
-							<p>
-								<label>Jezik potrdila</label>
-								<select>
-								  <option >Slovenščina</option>
-								  <option >Angleščina</option>
-								  </select>
-							</p>
+							<div class="info-content">
+								<label class="label-control">Število izvodov</label>
+								<div class="input-wrapper">
+									<select class="select-country">
+									  <option >1</option>
+									  <option >2</option>
+									  <option >3</option>
+									  <option >4</option>
+									   <option>5</option>
+									  <option >6</option>
+									  <option >7</option>
+									  <option >8</option>
+									   <option>9</option>
+									  <option >10</option>
+									</select>	
+									</div>
+							</div>
+							<div class="info-content">
+								<label class="label-control">Način prevzema</label>
+								<div class="input-wrapper">
+									<select class="select-country">
+									  <option >Po pošti</option>
+									  <option >Osebno</option>
+									  </select>
+								  </div>
+							</div>
+							<div class="info-content">
+								<label class="label-control">Jezik potrdila</label>
+								<div class="input-wrapper">
+									<select class="select-country">
+									  <option >Slovenščina</option>
+									  <option >Angleščina</option>
+									 </select>
+								  </div>
+							</div>
 							
-							<p >
-								<input type="submit" value="Naroči" />
+							<div class="form-action">
+								<input class="button buttonR" type="submit" value="Naroči" />
 								<a href="./home.html">Nazaj</a>
-							</p>
+							</div>
 						</form>
 		</section>
 	</div>

@@ -4,11 +4,12 @@
 	<title>Home page for e-student</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 	<link rel="stylesheet" href="css/mystyle.css">
+	<link rel="stylesheet" href="css/style.css">
 	</head>
 <body>
 	<header>
 	<div class="main-centered-content">
-	<a href="./home.html"><img src="logo.jpg" alt="logo"/></a>
+	<a href="./home.html"><img src="logom.jpg" alt="logo"/></a>
 	<div class="header-links"><a href="login.html">Sign out</a></div>
 	</div>
 	</header>
@@ -18,46 +19,60 @@
 				<li><a href="./home.html">Izpitni roki</a></li>
 				<li><a class="active" href="./myInfo.html">Moji Podatki</a></li>
 				<li><a href="./eIndex.html">E-indeks</a></li>
-				<li><a href="./orders.html">Naročilo potrdil</a></li>
+				<li><a href="./orders.html">Potrdila</a></li>
 				<li><a href="./application.html">Prošnje</a></li>
 			</ul>
 		</nav>
-		<section>
+		<section id="myinfo">
 			<form action="home.html" autocomplete="on" method="post">
 							<h1>Kontakt</h1>
-							<p>
-								<label>E-pošta</label>
-								<input required="required" type="email" placeholder="User@mail.com"/>
-							</p>
-							<p>
-								<label>Mobilni telefon </label>
-								<input  type="text" placeholder="041253673"/>	
-							</p>
-							<p>
-								<label>Stacionarni telefon</label>
-								<input  type="text" placeholder="041253673"/>	
-							</p>
-							<p>
-								<label>Ulica</label>
+							<div class="info-content">
+								
+									<label class="label-control">E-pošta</label>
+									<div class="input-wrapper">
+									<input required="required" type="email" placeholder="User@mail.com"/>
+									</div>
+							</div>
+							<div class="info-content">
+								<label class="label-control">Mobilni telefon </label>
+								<div class="input-wrapper">
+								<input  type="text" placeholder="041253673"/>
+								</div>
+							</div>
+							<div class="info-content">
+								<label class="label-control">Stacionarni telefon</label>
+								<div class="input-wrapper">
+								<input  type="text" placeholder="015223505"/>
+								</div>
+							</div>
+							<div class="info-content">
+								<label class="label-control">Ulica</label>
+								<div class="input-wrapper">
+								<input type="text"/>	
+								</div>
+							</div>
+							<div class="info-content">
+								<label class="label-control">Pošta</label>
+								<div class="input-wrapper">
 								<input  type="text"/>	
-							</p>
-							<p>
-								<label>Pošta</label>
-								<input  type="text"/>	
-							</p>
-							<p>
-								<label>Država</label>
-								<select>
-								  <option value="Slovenija">Slovenija</option>
-								  <option value="Avstrija">Avstrija</option>
-								  <option value="Hrvaška">Hrvaška</option>
-								  <option value="Srbija">Srbija</option>
+								</div>
+							</div>
+							<div class="info-content">
+								<label class="label-control">Država</label>
+								<div class="input-wrapper">
+								<select class="select-country">
+									<option value="Slovenija">Slovenija</option>
+									<option value="Avstrija">Avstrija</option>
+									<option value="Hrvaška">Hrvaška</option>
+									<option value="Srbija">Španija</option>
+									<option value="Srbija">ZDA</option>
 								</select>	
-							</p>
-							<p >
-								<input type="submit" value="Shrani" />
+								</div>
+							</div>
+							<div class="form-action">
+								<input class="button buttonR" type="submit" value="Shrani" />
 								<a href="./home.html">Nazaj</a>
-							</p>
+							</div>
 						</form>
 		</section>
 	</div>
