@@ -35,11 +35,11 @@ font-size: 16px}
 
 h1 {font-family: "Helvetica";
 	font-size: 16px;
-	font-color: #333333;}
+	color: #333333;}
 	
 h2 {font-family: "Helvetica";
 	font-size: 14px;
-	font-color: #333333;}
+	color: #333333;}
 
 ul {
 	/*text-align:center;*/
@@ -149,7 +149,7 @@ input:not([type=submit]){
 }
 .form-action{
 	box-sizing: border-box;
-	border:0px solid yellow;
+	/*border:0px solid yellow;*/
 	padding-left:15px;
 	padding-right:15px;
 	background-color:#eee;
